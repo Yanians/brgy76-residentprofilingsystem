@@ -1,0 +1,6 @@
+{
+	"name": "decodeapp",
+	"description": "decode App",
+	"repository": "https://github.com/username/reponame.git",
+	"image": "heroku/nodejs"
+}

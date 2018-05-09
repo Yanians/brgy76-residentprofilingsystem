@@ -1,0 +1,152 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+// Globals
+.bg-maroon {
+    background-color: #d81b60 !important;
+}
+.bg-navy {
+    background-color: #001f3f !important;
+}
+.white{
+	color:#fff !important;
+}
+
+.clear-fix{
+	clear:both;	
+}
+
+.modal-header{
+	background:#337ab7 !important;
+	color:#fff; 
+}
+
+// End Globals
+
+.dv{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content  : space-between;
+  height: 100%;
+}
+
+.dv-addbtn{
+	width:100px;
+	margin-bottom:10px !important;
+}
+
+.dv-header{
+	display          : flex;
+	justify-content  : space-between;
+	background       : #fff;
+	border-bottom    : 1px solid #eee;
+    margin: 4px;
+    padding: 4px;
+	span{
+		flex: 1;
+	}
+	&-title{
+ 	 flex:2;
+	}
+	&-select{
+ 	  display:block;
+ 	  width: 100%;
+      height: 26px;
+	}
+	&-columns{
+ 	  flex:2;
+ 	  display: flex;
+ 	  justify-content  : space-between;
+	}	
+	&-operators{
+      flex:2;
+      display: flex;
+  	  justify-content  : space-between;
+	}
+	&-input{
+	  display: block;
+	  width: 100%;
+	}
+	&-search{
+	  flex:4;
+	}
+	&-submit{
+		flex:1;
+	}
+}
+
+
+.dv-body{
+	flex: 1;
+	overflow:scroll;
+}
+
+.dv-table{
+	width:100%;
+	thead{
+		th{
+			padding: 8px;
+		    line-height: 1.42857143;
+		    vertical-align: top;
+		    border-top: 1px solid #ddd;
+		}
+	}
+	tbody{
+		td{
+			padding: 8px;
+		    line-height: 1.42857143;
+		    vertical-align: top;
+		    border-top: 1px solid #ddd;
+		    
+		}
+		.dv-td-action-btn-wrapper{
+			width:100px;
+		}
+		
+	}
+
+}
+
+.dv-footer{
+	padding:10px 15px;
+	display:flex;
+	justify-content: space-between;
+	&-input{
+		width: 40px;
+		padding-left:10px;
+	}
+}
+
+.dv-footer-item{
+	 display: flex;
+	 justify-content: space-between;
+}
+
+.dv-footer-sub{
+	padding-left:15px;
+
+}
+
+// Footer codes
+.main-footer{
+	padding:15px;
+	background:#337ab7;
+	color:#fff; 
+	clear:both;
+}
+
